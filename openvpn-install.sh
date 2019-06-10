@@ -36,8 +36,7 @@ elif [[ -e /etc/alpine-release ]]; then
   RCLOCAL='/etc/rc.local'
   echo "You are using Alpine! Congrats!"
 else
-	echo "Looks like you aren't running this installer on Debian, Ubuntu, CentOS, or Alpine 86 Dec  9 14:42 yarn.lock
-root@sidekick:/var/lib/lxd/conta"
+	echo "Looks like you aren't running this installer on Debian, Ubuntu, CentOS, or Alpine"
 	exit
 fi
 
