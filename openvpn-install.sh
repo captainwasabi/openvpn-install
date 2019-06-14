@@ -230,6 +230,7 @@ else
   if [[ "$OS" = 'alpine' ]]; then
     apk update
     apk add openvpn iptables openssl ca-certificates
+    rc-update add iptables
 	elif [[ "$OS" = 'debian' ]]; then
 		apt-get update
 		apt-get install openvpn iptables openssl ca-certificates -y
